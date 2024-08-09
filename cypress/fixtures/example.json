@@ -1,0 +1,16 @@
+{
+  "username_live": "ciobabos@yopmail.com",
+  "password_live": "QWERTY123",
+  "kurir": [
+    {
+      "kurir_idxflat": "IDX FLAT"
+    },
+    {
+      "kurir_jne": "JNE"
+    },
+    {
+      "kurir_jnttruck": "JNE JNETRUCK"
+    }
+  ]
+}
+
