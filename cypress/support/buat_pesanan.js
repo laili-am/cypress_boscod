@@ -3,8 +3,6 @@
  
 
  Cypress.Commands.add('buatPesananSatuanCOD', () => {
-  berat=1
-  qty=1
     cy.get(':nth-child(2) > [to="#"] > p > .right').click()
     cy.get('.menu-is-opening > .nav > :nth-child(1) > .nav-link > p').click()
     cy.contains('h1', 'Buat Pesanan',{ timeout: 10000 }).should('be.visible')
@@ -60,8 +58,8 @@
     cy.get('#item_name').type('Kaos Obong Bong')
     cy.get('#item_category',{ timeout: 10000 }).trigger('click').select('6')
     cy.get('.modal-body > :nth-child(2) > :nth-child(3) > .form-control').type(50000)
-    cy.get('.input-group > [style=""]').type(berat)
-    cy.get(':nth-child(8) > .input-group > .form-control').clear().type(qty)
+    cy.get('.input-group > [style=""]').type(1)
+    cy.get(':nth-child(8) > .input-group > .form-control').clear().type(1)
     cy.get(':nth-child(13) > .btn').click()
     // pilih cod dan non cod
       // cod
