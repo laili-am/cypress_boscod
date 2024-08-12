@@ -1,0 +1,16 @@
+{
+  "username_live": "nurlailiamalia31@gmail.com",
+  "password_live": "12345678",
+  "kurir": [
+    {
+      "kurir_idxflat": "IDX FLAT"
+    },
+    {
+      "kurir_jne": "JNE"
+    },
+    {
+      "kurir_jnttruck": "JNE JNETRUCK"
+    }
+  ]
+}
+
